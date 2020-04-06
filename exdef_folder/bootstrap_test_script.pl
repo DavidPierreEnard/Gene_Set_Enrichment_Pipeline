@@ -57,7 +57,7 @@ open(DATA,$indir.$valid_file);
 while(<DATA>){
     chomp $_;
     my @splitter_line = split(" ",$_);
-    if(($lactase_crap{$splitter_line[0]} ne "yes")and(not($hgnc{$splitter_line[0]} =~ /HIST/))and(not($hgnc{$splitter_line[0]} =~ /HLA/))){
+    if((not($hgnc{$splitter_line[0]} =~ /HIST/))and(not($hgnc{$splitter_line[0]} =~ /HLA/))){
 	#and($splitter_line[2]/$splitter_line[3]<=0.08258)){ #lactase, HLA and HISTone genes excluded here.
 	$valid{$splitter_line[0]} = "yes";
     }
