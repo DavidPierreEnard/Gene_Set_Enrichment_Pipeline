@@ -1,0 +1,7 @@
+The file that contains the disease genes is genes_set_file.txt. The disease genes are the ones with yes next to them.
+
+The confounding factors file is confounding_factors_pnps.txt
+
+Please refer to the manual pdf for further instructions. Once exdef_folder is copied locally and once you modified the input directory in the exdef_input_parameters_file.txt file, the pipeline should run immediately on any system with perl installed. 
+
+The current files in exdef_folder and the current exdef_input_parameters_file.txt instruct the pipeline to reproduce the results from figure 2 in Africa. The outputs created in test_outputs still need to be parsed after the pipeline has run, to measure the FPR.
