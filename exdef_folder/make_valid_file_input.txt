@@ -1,0 +1,8 @@
+confounding_factor_pnps.txt  no 0 10000000000000
+all_ihsfreqafr_ranks_4kb no 0 1000000000
+ensembl_protcoding_genes_v83 no 0 10000000000000
+genes_set_file.txt no 0 10000000000000
+distance_file.txt no 0 100000000000000
+
+
+
